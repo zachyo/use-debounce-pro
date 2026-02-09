@@ -149,11 +149,18 @@ export function createDebouncer<T extends (...args: any[]) => any>(
     }
 
     const time = Date.now();
-    cancel();
+
+    // Clear the timeout
+    if (state.timeoutId !== null) {
+      clearTimeout(state.timeoutId);
+      state.timeoutId = null;
+    }
 
     // Only invoke if we have pending args
     if (state.lastArgs) {
-      return invokeFunc(time);
+      const result = invokeFunc(time);
+      state.lastArgs = null; // Clear args after invocation
+      return result;
     }
 
     return state.result;
