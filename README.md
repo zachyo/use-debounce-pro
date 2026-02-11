@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/use-debounce-pro.svg)](https://www.npmjs.com/package/use-debounce-pro)
 [![bundle size](https://img.shields.io/badge/gzipped-759B-brightgreen)](https://github.com/zachyo/use-debounce-pro)
-[![license](https://img.shields.io/npm/l/use-debounce-pro.svg)](https://github.com/zachyo/use-debounce-pro/blob/master/LICENSE)
+[![tree shaking](https://img.shields.io/badge/tree%20shaking-supported-brightgreen.svg)](https://github.com/zachyo/use-debounce-pro)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue.svg)](https://www.typescriptlang.org/)
 
 A tiny (**759B** gzipped) React hook for debouncing and throttling — with full control.
@@ -15,6 +15,7 @@ A tiny (**759B** gzipped) React hook for debouncing and throttling — with full
 - ⏱️ **Max wait** — Guarantee execution within a time window
 - 🎮 **Full control** — `cancel()`, `flush()`, `isPending()`
 - 💪 **TypeScript** — Strict types with full generic inference
+- 🌳 **Tree-shakeable** — ESM + CJS dual builds, `sideEffects: false`
 - 🧹 **Safe** — Automatic cleanup on unmount, no stale closures
 
 ## Installation
