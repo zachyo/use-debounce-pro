@@ -32,15 +32,15 @@
     "performance",
     "typescript"
   ],
-  "author": "zarcc",
+  "author": "zachyo",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zarcc/use-debounce-pro.git"
+    "url": "git+https://github.com/zachyo/use-debounce-pro"
   },
-  "homepage": "https://github.com/zarcc/use-debounce-pro#readme",
+  "homepage": "https://github.com/zachyo/use-debounce-pro#readme",
   "bugs": {
-    "url": "https://github.com/zarcc/use-debounce-pro/issues"
+    "url": "https://github.com/zachyo/use-debounce-pro/issues"
   },
   "peerDependencies": {
     "react": ">=16.8.0"

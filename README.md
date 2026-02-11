@@ -1,8 +1,8 @@
 # use-debounce-pro
 
 [![npm version](https://img.shields.io/npm/v/use-debounce-pro.svg)](https://www.npmjs.com/package/use-debounce-pro)
-[![bundle size](https://img.shields.io/badge/gzipped-759B-brightgreen)](https://github.com/zarcc/use-debounce-pro)
-[![license](https://img.shields.io/npm/l/use-debounce-pro.svg)](https://github.com/zarcc/use-debounce-pro/blob/main/LICENSE)
+[![bundle size](https://img.shields.io/badge/gzipped-759B-brightgreen)](https://github.com/zachyo/use-debounce-pro)
+[![license](https://img.shields.io/npm/l/use-debounce-pro.svg)](https://github.com/zachyo/use-debounce-pro/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue.svg)](https://www.typescriptlang.org/)
 
 A tiny (**759B** gzipped) React hook for debouncing and throttling — with full control.
