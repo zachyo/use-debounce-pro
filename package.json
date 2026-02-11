@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "A lightweight React hook for debouncing and throttling with advanced features",
   "type": "module",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
   },
   "files": [
@@ -32,8 +32,16 @@
     "performance",
     "typescript"
   ],
-  "author": "",
+  "author": "zarcc",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zarcc/use-debounce-pro.git"
+  },
+  "homepage": "https://github.com/zarcc/use-debounce-pro#readme",
+  "bugs": {
+    "url": "https://github.com/zarcc/use-debounce-pro/issues"
+  },
   "peerDependencies": {
     "react": ">=16.8.0"
   },
